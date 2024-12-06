@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${YELLOW}[+] =============================================== [+]${NC}"
   echo -e "${YELLOW}[+]                                                 [+]${NC}"
   echo -e "${YELLOW}[+]                AUTO INSTALLER THEMA         [+]${NC}"
-  echo -e "${YELLOW}[+]                  © Xyro Official                    [+]${NC}"
+  echo -e "${YELLOW}[+]                  © Zero Official                    [+]${NC}"
   echo -e "${YELLOW}[+]                                                 [+]${NC}"
   echo -e "${YELLOW}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,11 +21,11 @@ display_welcome() {
   echo -e "terima kasih sudah menggunakan bash ini"
   echo -e ""
   echo -e "𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 :"
-  echo -e "@XstyanzZx"
+  echo -e "@zerostore8"
   echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@xyrohost_"
+  echo -e "@zerostore_"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@Xyro Official"
+  echo -e "@Zero Official"
   sleep 4
   clear
 }
@@ -64,13 +64,13 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "tonosukacatur" ]; then
+  if [ "$USER_TOKEN" = "zerosukayaliyali" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu wkww Ke Xyro Official
-    𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 : @XstyanzZx
-𝗬𝗢𝗨𝗧𝗨𝗕𝗘 : @xyrohost_
-𝗖𝗥𝗘𝗗𝗜𝗧𝗦 : @Xyro Official${NC}"
+    echo -e "${GREEN}Buy dulu wkww Ke Zero Official
+    𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 : @zerostore8
+𝗬𝗢𝗨𝗧𝗨𝗕𝗘 : @zerostore8_
+𝗖𝗥𝗘𝗗𝗜𝗧𝗦 : @Zero Official${NC}"
     exit 1
   fi
   clear
@@ -93,7 +93,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/XstyanzZx/xyroku/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/zerostore08/zeroku/raw/main/C2.zip")
         break
         ;;
       2)
@@ -227,7 +227,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/XstyanzZx/xyroku/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/zerostore08/zeroku/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES         [+]${NC}"
@@ -246,7 +246,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/XstyanzZx/xyroku/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/zerostore08/zeroku/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
@@ -453,9 +453,9 @@ while true; do
 echo -e "${RED}╔╦╦╦╦╦╦╦╦╦╦╗                               ${NC}"
 echo -e "${RED}╠╬╬╬╬╬╬╬╬╬╬╣       Auto Installer Xyro Official ${NC}"
 echo -e "${RED}╠╬╬█╬╬╬╬█╬╬╣       ======================= ${NC}"
-echo -e "${RED}╠╬╬╬╬╬╬╬╬╬╬╣        Support By Xyro Official   ${NC}"
-echo -e "${RED}╠╬████████╬╣         Tele: @XstyanzZx       ${NC}"
-echo -e "${RED}╠╬█╬╬╬╬╬╬█╬╣         YT: xyrohost_        ${NC}"
+echo -e "${RED}╠╬╬╬╬╬╬╬╬╬╬╣        Support By Zero Official   ${NC}"
+echo -e "${RED}╠╬████████╬╣         Tele: @zerostore8       ${NC}"
+echo -e "${RED}╠╬█╬╬╬╬╬╬█╬╣         YT: zerostore8_        ${NC}"
 echo -e "${RED}╚╩╩╩╩╩╩╩╩╩╩╝                              ${NC}"
   echo -e "                                                       "
   echo -e "SELECT OPTION :"
